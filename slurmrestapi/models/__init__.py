@@ -1,0 +1,82 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from slurmrestapi.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from slurmrestapi.model.dbv0038_account import Dbv0038Account
+from slurmrestapi.model.dbv0038_account_info import Dbv0038AccountInfo
+from slurmrestapi.model.dbv0038_account_response import Dbv0038AccountResponse
+from slurmrestapi.model.dbv0038_accounting import Dbv0038Accounting
+from slurmrestapi.model.dbv0038_association import Dbv0038Association
+from slurmrestapi.model.dbv0038_association_short_info import Dbv0038AssociationShortInfo
+from slurmrestapi.model.dbv0038_associations_info import Dbv0038AssociationsInfo
+from slurmrestapi.model.dbv0038_cluster_info import Dbv0038ClusterInfo
+from slurmrestapi.model.dbv0038_clusters_properties import Dbv0038ClustersProperties
+from slurmrestapi.model.dbv0038_config_info import Dbv0038ConfigInfo
+from slurmrestapi.model.dbv0038_config_response import Dbv0038ConfigResponse
+from slurmrestapi.model.dbv0038_coordinator_info import Dbv0038CoordinatorInfo
+from slurmrestapi.model.dbv0038_diag import Dbv0038Diag
+from slurmrestapi.model.dbv0038_error import Dbv0038Error
+from slurmrestapi.model.dbv0038_errors import Dbv0038Errors
+from slurmrestapi.model.dbv0038_job import Dbv0038Job
+from slurmrestapi.model.dbv0038_job_exit_code import Dbv0038JobExitCode
+from slurmrestapi.model.dbv0038_job_info import Dbv0038JobInfo
+from slurmrestapi.model.dbv0038_job_step import Dbv0038JobStep
+from slurmrestapi.model.dbv0038_meta import Dbv0038Meta
+from slurmrestapi.model.dbv0038_qos import Dbv0038Qos
+from slurmrestapi.model.dbv0038_qos_info import Dbv0038QosInfo
+from slurmrestapi.model.dbv0038_response_account_delete import Dbv0038ResponseAccountDelete
+from slurmrestapi.model.dbv0038_response_associations import Dbv0038ResponseAssociations
+from slurmrestapi.model.dbv0038_response_associations_delete import Dbv0038ResponseAssociationsDelete
+from slurmrestapi.model.dbv0038_response_cluster_add import Dbv0038ResponseClusterAdd
+from slurmrestapi.model.dbv0038_response_cluster_delete import Dbv0038ResponseClusterDelete
+from slurmrestapi.model.dbv0038_response_qos import Dbv0038ResponseQos
+from slurmrestapi.model.dbv0038_response_qos_delete import Dbv0038ResponseQosDelete
+from slurmrestapi.model.dbv0038_response_tres import Dbv0038ResponseTres
+from slurmrestapi.model.dbv0038_response_user_delete import Dbv0038ResponseUserDelete
+from slurmrestapi.model.dbv0038_response_user_update import Dbv0038ResponseUserUpdate
+from slurmrestapi.model.dbv0038_response_wckey_add import Dbv0038ResponseWckeyAdd
+from slurmrestapi.model.dbv0038_response_wckey_delete import Dbv0038ResponseWckeyDelete
+from slurmrestapi.model.dbv0038_set_config import Dbv0038SetConfig
+from slurmrestapi.model.dbv0038_tres_info import Dbv0038TresInfo
+from slurmrestapi.model.dbv0038_tres_list import Dbv0038TresList
+from slurmrestapi.model.dbv0038_tres_update import Dbv0038TresUpdate
+from slurmrestapi.model.dbv0038_update_account import Dbv0038UpdateAccount
+from slurmrestapi.model.dbv0038_update_qos import Dbv0038UpdateQos
+from slurmrestapi.model.dbv0038_update_users import Dbv0038UpdateUsers
+from slurmrestapi.model.dbv0038_user import Dbv0038User
+from slurmrestapi.model.dbv0038_user_info import Dbv0038UserInfo
+from slurmrestapi.model.dbv0038_wckey import Dbv0038Wckey
+from slurmrestapi.model.dbv0038_wckey_info import Dbv0038WckeyInfo
+from slurmrestapi.model.v0038_diag import V0038Diag
+from slurmrestapi.model.v0038_diag_rpcm import V0038DiagRpcm
+from slurmrestapi.model.v0038_diag_rpcu import V0038DiagRpcu
+from slurmrestapi.model.v0038_error import V0038Error
+from slurmrestapi.model.v0038_errors import V0038Errors
+from slurmrestapi.model.v0038_job_properties import V0038JobProperties
+from slurmrestapi.model.v0038_job_resources import V0038JobResources
+from slurmrestapi.model.v0038_job_response_properties import V0038JobResponseProperties
+from slurmrestapi.model.v0038_job_submission import V0038JobSubmission
+from slurmrestapi.model.v0038_job_submission_response import V0038JobSubmissionResponse
+from slurmrestapi.model.v0038_jobs_response import V0038JobsResponse
+from slurmrestapi.model.v0038_license import V0038License
+from slurmrestapi.model.v0038_licenses import V0038Licenses
+from slurmrestapi.model.v0038_meta import V0038Meta
+from slurmrestapi.model.v0038_node import V0038Node
+from slurmrestapi.model.v0038_node_allocation import V0038NodeAllocation
+from slurmrestapi.model.v0038_nodes_response import V0038NodesResponse
+from slurmrestapi.model.v0038_partition import V0038Partition
+from slurmrestapi.model.v0038_partitions_response import V0038PartitionsResponse
+from slurmrestapi.model.v0038_ping import V0038Ping
+from slurmrestapi.model.v0038_pings import V0038Pings
+from slurmrestapi.model.v0038_reservation import V0038Reservation
+from slurmrestapi.model.v0038_reservations_response import V0038ReservationsResponse
+from slurmrestapi.model.v0038_signal import V0038Signal
