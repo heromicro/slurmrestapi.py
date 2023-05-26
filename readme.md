@@ -15,3 +15,9 @@
 ```shell
 pip install slurmrestapi==0.0.37.2
 ```
+
+```shell
+
+python3 setup.py sdist build
+
+```
