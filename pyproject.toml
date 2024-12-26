@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "slurmrestapi"
-version = "1.0.0"
+version = "v24.05.5"
 description = "Slurm REST API"
 authors = ["SchedMD LLC <sales@schedmd.com>"]
 license = "Apache 2.0"
