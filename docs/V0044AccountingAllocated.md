@@ -1,0 +1,29 @@
+# V0044AccountingAllocated
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**seconds** | **int** | Number of seconds allocated | [optional] 
+
+## Example
+
+```python
+from slurmrestapi.models.v0044_accounting_allocated import V0044AccountingAllocated
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of V0044AccountingAllocated from a JSON string
+v0044_accounting_allocated_instance = V0044AccountingAllocated.from_json(json)
+# print the JSON string representation of the object
+print(V0044AccountingAllocated.to_json())
+
+# convert the object into a dict
+v0044_accounting_allocated_dict = v0044_accounting_allocated_instance.to_dict()
+# create an instance of V0044AccountingAllocated from a dict
+v0044_accounting_allocated_from_dict = V0044AccountingAllocated.from_dict(v0044_accounting_allocated_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
