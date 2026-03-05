@@ -1,6 +1,6 @@
 [project]
 name = "slurmrestapi"
-version = "1.0.0"
+version = "25.11.3.0"
 description = "Slurm REST API"
 authors = [
   {name = "SchedMD LLC",email = "sales@schedmd.com"},
