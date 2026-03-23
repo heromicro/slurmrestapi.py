@@ -1,0 +1,48 @@
+# V0044PartitionInfo
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**nodes** | [**V0044PartitionInfoNodes**](V0044PartitionInfoNodes.md) |  | [optional] 
+**accounts** | [**V0044PartitionInfoAccounts**](V0044PartitionInfoAccounts.md) |  | [optional] 
+**groups** | [**V0044PartitionInfoGroups**](V0044PartitionInfoGroups.md) |  | [optional] 
+**qos** | [**V0044PartitionInfoQos**](V0044PartitionInfoQos.md) |  | [optional] 
+**alternate** | **str** | Alternate - Partition name of alternate partition to be used if the state of this partition is DRAIN or INACTIVE | [optional] 
+**tres** | [**V0044PartitionInfoTres**](V0044PartitionInfoTres.md) |  | [optional] 
+**cluster** | **str** | Cluster name | [optional] 
+**select_type** | **List[str]** | Scheduler consumable resource selection type | [optional] 
+**cpus** | [**V0044PartitionInfoCpus**](V0044PartitionInfoCpus.md) |  | [optional] 
+**defaults** | [**V0044PartitionInfoDefaults**](V0044PartitionInfoDefaults.md) |  | [optional] 
+**grace_time** | **int** | GraceTime - Grace time in seconds to be extended to a job which has been selected for preemption | [optional] 
+**maximums** | [**V0044PartitionInfoMaximums**](V0044PartitionInfoMaximums.md) |  | [optional] 
+**minimums** | [**V0044PartitionInfoMinimums**](V0044PartitionInfoMinimums.md) |  | [optional] 
+**name** | **str** | PartitionName - Name by which the partition may be referenced | [optional] 
+**node_sets** | **str** | NodeSets - Comma-separated list of nodesets which are associated with this partition | [optional] 
+**priority** | [**V0044PartitionInfoPriority**](V0044PartitionInfoPriority.md) |  | [optional] 
+**timeouts** | [**V0044PartitionInfoTimeouts**](V0044PartitionInfoTimeouts.md) |  | [optional] 
+**topology** | **str** | Topology - Name of the topology, defined in topology.yaml, used by jobs in this partition | [optional] 
+**partition** | [**V0041OpenapiPartitionRespPartitionsInnerPartition**](V0041OpenapiPartitionRespPartitionsInnerPartition.md) |  | [optional] 
+**suspend_time** | [**V0044Uint32NoValStruct**](V0044Uint32NoValStruct.md) |  | [optional] 
+
+## Example
+
+```python
+from slurmrestapi.models.v0044_partition_info import V0044PartitionInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of V0044PartitionInfo from a JSON string
+v0044_partition_info_instance = V0044PartitionInfo.from_json(json)
+# print the JSON string representation of the object
+print(V0044PartitionInfo.to_json())
+
+# convert the object into a dict
+v0044_partition_info_dict = v0044_partition_info_instance.to_dict()
+# create an instance of V0044PartitionInfo from a dict
+v0044_partition_info_from_dict = V0044PartitionInfo.from_dict(v0044_partition_info_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
